@@ -18,9 +18,9 @@
     </p>
     <p ng-init="count = 0">
       <form>
-       <input type="button" value="button" ng-action="count = count + 1"/>
-       <input type="submit" value="submit" ng-action="count = count + 1"/>
-       <a href="#ERROR" ng-action="count=count+1">action</a>
+       <input type="button" value="button" ng-click="count = count + 1"/>
+       <input type="submit" value="submit" ng-click="count = count + 1"/>
+       <a href="#ERROR" ng-click="count=count+1">action</a>
        count={{count}}
       </form>
     </p>
